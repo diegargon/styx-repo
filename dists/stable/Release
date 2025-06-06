@@ -1,0 +1,7 @@
+Origin: styx-repo
+Label: styx-repo
+Suite: stable
+Codename: bookworm
+Architectures: amd64
+Components: main
+Description: styx local debian repo for bookworm
