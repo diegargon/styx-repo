@@ -17,6 +17,42 @@ Description: Linux kernel headers for 6.12.32-5-styx on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.12.32-6-styx
+Source: linux-upstream
+Version: 6
+Architecture: amd64
+Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-8ptgt>
+Installed-Size: 51748
+Filename: pool/main/linux-headers-6.12.32-6-styx_6_amd64.deb
+Size: 9293524
+MD5sum: b79725c01d8512414a79d98d4d29d5c7
+SHA1: 262aa22440790ce87031ab3ebe2b5754f17d905f
+SHA256: e6ff09611e784ea7d3ce4c49e3d83f3d80daa6f45c63674ceffcc2b8f8e44393
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.12.32-6-styx on amd64
+ This package provides kernel header files for 6.12.32-6-styx on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-styx
+Source: linux-meta-styx
+Version: 1.0
+Architecture: amd64
+Maintainer: Tu Nombre <tu@email.com>
+Installed-Size: 7
+Depends: linux-headers-6.12.32-5-styx
+Filename: pool/main/linux-headers-styx_1.0_amd64.deb
+Size: 1140
+MD5sum: 0fa41f063139bb3cf851d351209d8009
+SHA1: 99335299afc7649a47cdf7f1ce092464db7d8fb9
+SHA256: 22ec5c93ed8f6d6e09fa4c9b81d0389f4b68d765643a939f15a3357ed067a2df
+Section: metapackages
+Priority: optional
+Description: Metapaquete para instalar los headers del kernel Linux Styx
+ Este metapaquete siempre depende de la versión 6.12.32-5-styx de los headers del kernel Linux.
+
 Package: linux-image-6.12.32-5-styx
 Source: linux-upstream
 Version: 5
@@ -34,4 +70,39 @@ Homepage: https://www.kernel.org/
 Description: Linux kernel, version 6.12.32-5-styx
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.12.32-5-styx.
+
+Package: linux-image-6.12.32-6-styx
+Source: linux-upstream
+Version: 6
+Architecture: amd64
+Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-8ptgt>
+Installed-Size: 138010
+Filename: pool/main/linux-image-6.12.32-6-styx_6_amd64.deb
+Size: 31010896
+MD5sum: 70abec85a0753907a1754271d034cbc3
+SHA1: 9dfe586e8592bd33f5cb9dfebfe92367b6485e52
+SHA256: ede3db20ff0daaa8f227d73b2b92567e24b9fceb04f1e8d9b443ec53294337da
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.12.32-6-styx
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.12.32-6-styx.
+
+Package: linux-image-styx
+Source: linux-meta-styx
+Version: 1.0
+Architecture: amd64
+Maintainer: Tu Nombre <tu@email.com>
+Installed-Size: 7
+Depends: linux-image-6.12.32-5-styx
+Filename: pool/main/linux-image-styx_1.0_amd64.deb
+Size: 1128
+MD5sum: bfde4b2e74a393c902409d609ee667c3
+SHA1: dc78a7c1c0ebaccfae0ca05c4cc4e730d4f9ae59
+SHA256: b4e09de4eb6425a5a243207a7e2b4a81547c4d69442e98e772dcb542107366b1
+Section: metapackages
+Priority: optional
+Description: Metapaquete para instalar el kernel Linux Styx
+ Este metapaquete siempre depende de la versión 6.12.32-5-styx del kernel Linux.
 
