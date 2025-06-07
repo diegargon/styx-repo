@@ -1,37 +1,37 @@
-Package: linux-headers-6.12.32
+Package: linux-headers-6.12.32-5-styx
 Source: linux-upstream
-Version: 5-styx
+Version: 5
 Architecture: amd64
-Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-zsm2s>
+Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-hvt7j>
 Installed-Size: 51736
-Filename: pool/main/linux-headers-6.12.32_5-styx_amd64.deb
-Size: 9294724
-MD5sum: bb69e0573a26bc2ef484ed9cb9c526f1
-SHA1: 2824b5306882b0fe24e4fc69fe891d8a7bcaa792
-SHA256: de834c6367e223554395b403ae5ba5aa4b61fd143efa67a15e6274c731f994f1
+Filename: pool/main/linux-headers-6.12.32-5-styx_5_amd64.deb
+Size: 9293516
+MD5sum: 647be399a1c7015068fc73da50e98c82
+SHA1: 3088e13087c8de59b24c35e95533c16910380990
+SHA256: 451fd3f2112a16b2fa424d3730050a4e261c0d042c98e2fa701a12bec216a5a2
 Section: kernel
 Priority: optional
 Homepage: https://www.kernel.org/
-Description: Linux kernel headers for 6.12.32 on amd64
- This package provides kernel header files for 6.12.32 on amd64
+Description: Linux kernel headers for 6.12.32-5-styx on amd64
+ This package provides kernel header files for 6.12.32-5-styx on amd64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.12.32
+Package: linux-image-6.12.32-5-styx
 Source: linux-upstream
-Version: 5-styx
+Version: 5
 Architecture: amd64
-Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-zsm2s>
-Installed-Size: 132863
-Filename: pool/main/linux-image-6.12.32_5-styx_amd64.deb
-Size: 30164120
-MD5sum: a6303fa209f2afe0b563e1473a5c6617
-SHA1: c988800fa1f623047f19d34dc8932031c5644bc3
-SHA256: 47acc73f4ae3fd787c9777c92085a36bc4ebeca89543b90cebe31c1e4ab8e3ba
+Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-hvt7j>
+Installed-Size: 132979
+Filename: pool/main/linux-image-6.12.32-5-styx_5_amd64.deb
+Size: 30298770
+MD5sum: e97a87c0c5bedfa697d425249382ee35
+SHA1: 6b07a3bda14594fb719593423a30130e147a71b6
+SHA256: d4a793fbbc5c6d0fa08ae3f88ab3050df461612f87fb7998c9f9ce0d678658e1
 Section: kernel
 Priority: optional
 Homepage: https://www.kernel.org/
-Description: Linux kernel, version 6.12.32
+Description: Linux kernel, version 6.12.32-5-styx
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.12.32.
+ files, version: 6.12.32-5-styx.
 
