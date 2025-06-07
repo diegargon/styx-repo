@@ -1,17 +1,24 @@
-Date: Sat, 07 Jun 2025 07:58:34 +0000
+Origin: styx-repo
+Label: styx-repo
+Suite: stable
+Codename: bookworm
+Architectures: amd64
+Components: main
+Description: styx local debian repo for bookworm
+Date: Sat, 07 Jun 2025 08:06:17 +0000
 MD5Sum:
- 3adaaa0b48569572add036c4599bb01f               38 Release
+ 189194ffebc72406a642dfeb4a01edd8               38 Release
  7e287b6d6f376f45ede74f80e77045c5             1286 main/binary-amd64/Packages
- 76ebf5100b794fb24bac834e58a0a6ee              626 main/binary-amd64/Packages.gz
+ 1e674af4c1fa4e1ec59e4057a9261265              626 main/binary-amd64/Packages.gz
 SHA1:
- 7a181e33502f126e325abc79c2dd8733439ff017               38 Release
+ b40aaba13da09cc4b0d6923fa9a505b6d53b322f               38 Release
  635d8b9a3e1e1145bdefaf9288a460f618e5712c             1286 main/binary-amd64/Packages
- a681f07e565f6d32c1020bdd57561b0506e3ae06              626 main/binary-amd64/Packages.gz
+ 99ccbbab84696b77618096920aa7b83181ea1b5c              626 main/binary-amd64/Packages.gz
 SHA256:
- d56fc2ef688bb8c3dd8501c2ae861da3f36ad99def6a1d9982f78a8b979ecb7e               38 Release
+ e3184f63df3d84e383c83b76e10c71b3109d1c4c7e4ae2c0d3fc23c13d47b295               38 Release
  ffc6e6297ef88ee139836102af877f1030c60f32b077e23a4f5eb28b35f57589             1286 main/binary-amd64/Packages
- ad82f04f10d089c9a1e4d07b0ff23fd951b0bc8e1a87984998c13eb2ad44d38c              626 main/binary-amd64/Packages.gz
+ f4449de669fa226d6f7fa4c2142221fcf60de0580b2f0573dc7092173286cad4              626 main/binary-amd64/Packages.gz
 SHA512:
- b62ee6328aaaf98f3f4966f076d04402e799b62e994146d544fc73fab0dd3b9b367875227abb31d248c3f2139183574dec7fdabca5986e336373dc2c277bf160               38 Release
+ f06817061611bca7a16f53cd28a16d4e58e6a5d98ec2f2cd80c55a70d878eb29aa8133b98640a3171dcab402bec0640686ef435ed5bb2733e50a69c90b209009               38 Release
  78f1dab55e32b829d96174451a24b452d40fe18e93205383d0356f374d869e59a6b1ad35e3816388302b4762fa57802fd4666d2be64a8768958ed4fb6bede121             1286 main/binary-amd64/Packages
- 2b54833f43087bb25371ff48fd62f800e7d02b7dae1a7db00d2232437b44ebd7095080de14eb2cb54649e49ab80a3082424fcd4fc6f8958d4ff9bee63ff9d577              626 main/binary-amd64/Packages.gz
+ f06ed17414b42a5b287a73fd852f9588f6240454d270f4d6f142b46f6832259b6fe768824cb974405a4506a9ef2b4207507f7ee0294a37604295dceac01982ac              626 main/binary-amd64/Packages.gz
