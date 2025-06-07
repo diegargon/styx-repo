@@ -1,0 +1,37 @@
+Package: linux-headers-6.12.32
+Source: linux-upstream
+Version: 4-styx
+Architecture: amd64
+Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-d8zjp>
+Installed-Size: 51736
+Filename: pool/main/linux-headers-6.12.32_4-styx_amd64.deb
+Size: 9293756
+MD5sum: 5383e67b83fd9595b04d218a827c2c15
+SHA1: d71050704c9fead9cfc485c521a6031d96e78cd2
+SHA256: 3fbd3099e80c063f323ac33e5d12151a4f68d87aaccbffaa2dda7c7acd541228
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.12.32 on amd64
+ This package provides kernel header files for 6.12.32 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.12.32
+Source: linux-upstream
+Version: 4-styx
+Architecture: amd64
+Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-d8zjp>
+Installed-Size: 132859
+Filename: pool/main/linux-image-6.12.32_4-styx_amd64.deb
+Size: 30184734
+MD5sum: 56c3ffe51b6c0da44f1bce4c7f8b46fb
+SHA1: d2a5a99ea78944decd1641786859b2e8f13271a5
+SHA256: 64eb653b315fcfa7ce8d56aec841f9188c71bbad3f128265a43a1c40ccc9664e
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.12.32
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.12.32.
+
