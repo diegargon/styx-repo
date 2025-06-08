@@ -6,12 +6,11 @@ Standards-Version: 4.5.0
 
 Package: linux-image-styx
 Architecture: amd64
-Depends: linux-image-6.12.32-5-styx
+Depends: linux-image-6.12.32-8-styx
 Description: Metapaquete para instalar el kernel Linux Styx
- Este metapaquete siempre depende de la versión 6.12.32-5-styx del kernel Linux.
 
 Package: linux-headers-styx
 Architecture: amd64
-Depends: linux-headers-6.12.32-5-styx
+Depends: linux-headers-6.12.32-8-styx
 Description: Metapaquete para instalar los headers del kernel Linux Styx
- Este metapaquete siempre depende de la versión 6.12.32-5-styx de los headers del kernel Linux.
+
