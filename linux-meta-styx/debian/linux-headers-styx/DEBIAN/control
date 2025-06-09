@@ -1,10 +1,10 @@
 Package: linux-headers-styx
 Source: linux-meta-styx
-Version: 1.4
+Version: 1.5
 Architecture: amd64
 Maintainer: Tu Nombre <tu@email.com>
 Installed-Size: 7
-Depends: linux-headers-6.12.32-9-styx
+Depends: linux-headers-6.12.32-10-styx
 Section: metapackages
 Priority: optional
 Description: Metapaquete para instalar los headers del kernel Linux Styx

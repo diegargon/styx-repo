@@ -1,57 +1,19 @@
-Package: linux-headers-6.12.32-5-styx
+Package: linux-headers-6.12.32-10-styx
 Source: linux-upstream
-Version: 5
+Version: 10
 Architecture: amd64
-Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-hvt7j>
-Installed-Size: 51736
-Filename: pool/main/linux-headers-6.12.32-5-styx_5_amd64.deb
-Size: 9293516
-MD5sum: 647be399a1c7015068fc73da50e98c82
-SHA1: 3088e13087c8de59b24c35e95533c16910380990
-SHA256: 451fd3f2112a16b2fa424d3730050a4e261c0d042c98e2fa701a12bec216a5a2
+Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-qnj7r>
+Installed-Size: 51743
+Filename: pool/main/linux-headers-6.12.32-10-styx_10_amd64.deb
+Size: 9292464
+MD5sum: d1377b3215d6192db927024ddc4c9302
+SHA1: 449830d1d06265479321cdf5ae1061f255b44e73
+SHA256: 898422bf169d538df8a97dd86ef6597fa4a68ab323751ec8ef2f7fae62540d97
 Section: kernel
 Priority: optional
 Homepage: https://www.kernel.org/
-Description: Linux kernel headers for 6.12.32-5-styx on amd64
- This package provides kernel header files for 6.12.32-5-styx on amd64
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-6.12.32-6-styx
-Source: linux-upstream
-Version: 6
-Architecture: amd64
-Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-8ptgt>
-Installed-Size: 51748
-Filename: pool/main/linux-headers-6.12.32-6-styx_6_amd64.deb
-Size: 9293524
-MD5sum: b79725c01d8512414a79d98d4d29d5c7
-SHA1: 262aa22440790ce87031ab3ebe2b5754f17d905f
-SHA256: e6ff09611e784ea7d3ce4c49e3d83f3d80daa6f45c63674ceffcc2b8f8e44393
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Linux kernel headers for 6.12.32-6-styx on amd64
- This package provides kernel header files for 6.12.32-6-styx on amd64
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-6.12.32-7-styx
-Source: linux-upstream
-Version: 1
-Architecture: amd64
-Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-94chv>
-Installed-Size: 51741
-Filename: pool/main/linux-headers-6.12.32-7-styx_1_amd64.deb
-Size: 9294608
-MD5sum: b588556f4fe823d0518c7070ea8642ac
-SHA1: 687336131b4c9c6d6c0b4b96e676fb2c1ecba41e
-SHA256: 470bf4ff1d5ddcfa928efd72c95d6c0437d5c210e45b85ed19cf233c56b7d53c
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Linux kernel headers for 6.12.32-7-styx on amd64
- This package provides kernel header files for 6.12.32-7-styx on amd64
+Description: Linux kernel headers for 6.12.32-10-styx on amd64
+ This package provides kernel header files for 6.12.32-10-styx on amd64
  .
  This is useful for people who need to build external modules
 
@@ -95,73 +57,37 @@ Description: Linux kernel headers for 6.12.32-9-styx on amd64
 
 Package: linux-headers-styx
 Source: linux-meta-styx
-Version: 1.4
+Version: 1.5
 Architecture: amd64
 Maintainer: Tu Nombre <tu@email.com>
 Installed-Size: 7
-Depends: linux-headers-6.12.32-9-styx
-Filename: pool/main/linux-headers-styx_1.4_amd64.deb
+Depends: linux-headers-6.12.32-10-styx
+Filename: pool/main/linux-headers-styx_1.5_amd64.deb
 Size: 1100
-MD5sum: 4b9f4f885a45690ee0e3ce4e0cf9f013
-SHA1: ad88020fd3aeb7df18e157b0badec0dad8ffacb1
-SHA256: 67a4344cc116293e6f1292d12faf94bffac5516899da530da307fe549c080c44
+MD5sum: 32c55ff02ddaa2951db0b48f4a738de1
+SHA1: 9442915321a1eedb47ac4b7acab6077d9bbc5710
+SHA256: 8465ff228e909aa8a6f13367ad84f109e69f6f7e95f39367cd73c033104c1372
 Section: metapackages
 Priority: optional
 Description: Metapaquete para instalar los headers del kernel Linux Styx
 
-Package: linux-image-6.12.32-5-styx
+Package: linux-image-6.12.32-10-styx
 Source: linux-upstream
-Version: 5
+Version: 10
 Architecture: amd64
-Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-hvt7j>
-Installed-Size: 132979
-Filename: pool/main/linux-image-6.12.32-5-styx_5_amd64.deb
-Size: 30298770
-MD5sum: e97a87c0c5bedfa697d425249382ee35
-SHA1: 6b07a3bda14594fb719593423a30130e147a71b6
-SHA256: d4a793fbbc5c6d0fa08ae3f88ab3050df461612f87fb7998c9f9ce0d678658e1
+Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-qnj7r>
+Installed-Size: 136488
+Filename: pool/main/linux-image-6.12.32-10-styx_10_amd64.deb
+Size: 30805304
+MD5sum: 1d2106c0f4f88a0137779bb32def7fb5
+SHA1: 7d848ac615c17a2b1b544338169b57d3917e85e8
+SHA256: 24c24758daa1261c9a7c0e3ade94624feb7595fb8a30017911a2a40efb9badf7
 Section: kernel
 Priority: optional
 Homepage: https://www.kernel.org/
-Description: Linux kernel, version 6.12.32-5-styx
+Description: Linux kernel, version 6.12.32-10-styx
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.12.32-5-styx.
-
-Package: linux-image-6.12.32-6-styx
-Source: linux-upstream
-Version: 6
-Architecture: amd64
-Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-8ptgt>
-Installed-Size: 138010
-Filename: pool/main/linux-image-6.12.32-6-styx_6_amd64.deb
-Size: 31010896
-MD5sum: 70abec85a0753907a1754271d034cbc3
-SHA1: 9dfe586e8592bd33f5cb9dfebfe92367b6485e52
-SHA256: ede3db20ff0daaa8f227d73b2b92567e24b9fceb04f1e8d9b443ec53294337da
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Linux kernel, version 6.12.32-6-styx
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.12.32-6-styx.
-
-Package: linux-image-6.12.32-7-styx
-Source: linux-upstream
-Version: 1
-Architecture: amd64
-Maintainer: root <root@arc-runner-set-kernel-8ckxj-runner-94chv>
-Installed-Size: 137360
-Filename: pool/main/linux-image-6.12.32-7-styx_1_amd64.deb
-Size: 30974140
-MD5sum: 0bc005a3377ce2601b8a608cec6d2a13
-SHA1: 179828a063004398fc77650113c700d5a0d2c385
-SHA256: 4f4b68eb5995ba6b4f6dfb8c67846db414e1cc87eedb4beca3bbc89867b65f9d
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Linux kernel, version 6.12.32-7-styx
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.12.32-7-styx.
+ files, version: 6.12.32-10-styx.
 
 Package: linux-image-6.12.32-8-styx
 Source: linux-upstream
@@ -201,16 +127,16 @@ Description: Linux kernel, version 6.12.32-9-styx
 
 Package: linux-image-styx
 Source: linux-meta-styx
-Version: 1.4
+Version: 1.5
 Architecture: amd64
 Maintainer: Tu Nombre <tu@email.com>
 Installed-Size: 7
-Depends: linux-image-6.12.32-9-styx
-Filename: pool/main/linux-image-styx_1.4_amd64.deb
-Size: 1088
-MD5sum: 6d595cdc365179e966518148b83e9534
-SHA1: 13154e6c1f9439a62ba00c70d2ccce9faca4f8f9
-SHA256: c904306bc1c7245fc3960c99c738fc8a1b0488858d80627399822c1d665a6bdd
+Depends: linux-image-6.12.32-10-styx
+Filename: pool/main/linux-image-styx_1.5_amd64.deb
+Size: 1092
+MD5sum: 333bd2b1f8cd8ea0a36f31a403efea7e
+SHA1: e3c915195d993d4cef0904e2c93698e0cefc8742
+SHA256: 3b3ee22c6be895402054d6274973523d498d96e976006d6a1ec3d19a70af3deb
 Section: metapackages
 Priority: optional
 Description: Metapaquete para instalar el kernel Linux Styx
